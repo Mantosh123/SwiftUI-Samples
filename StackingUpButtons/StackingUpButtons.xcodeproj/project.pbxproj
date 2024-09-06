@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4955A2E2C8B011F00250DB1 /* StackingUpButtonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4955A2D2C8B011F00250DB1 /* StackingUpButtonsApp.swift */; };
+		B4955A302C8B011F00250DB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4955A2F2C8B011F00250DB1 /* ContentView.swift */; };
+		B4955A322C8B012000250DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4955A312C8B012000250DB1 /* Assets.xcassets */; };
+		B4955A352C8B012000250DB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4955A342C8B012000250DB1 /* Preview Assets.xcassets */; };
+		B4955A3F2C8B012100250DB1 /* StackingUpButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4955A3E2C8B012100250DB1 /* StackingUpButtonsTests.swift */; };
+		B4955A492C8B012100250DB1 /* StackingUpButtonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4955A482C8B012100250DB1 /* StackingUpButtonsUITests.swift */; };
+		B4955A4B2C8B012100250DB1 /* StackingUpButtonsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4955A4A2C8B012100250DB1 /* StackingUpButtonsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4955A3B2C8B012100250DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4955A222C8B011F00250DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4955A292C8B011F00250DB1;
+			remoteInfo = StackingUpButtons;
+		};
+		B4955A452C8B012100250DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4955A222C8B011F00250DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4955A292C8B011F00250DB1;
+			remoteInfo = StackingUpButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4955A2A2C8B011F00250DB1 /* StackingUpButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackingUpButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4955A2D2C8B011F00250DB1 /* StackingUpButtonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackingUpButtonsApp.swift; sourceTree = "<group>"; };
+		B4955A2F2C8B011F00250DB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4955A312C8B012000250DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4955A342C8B012000250DB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4955A3A2C8B012100250DB1 /* StackingUpButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackingUpButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4955A3E2C8B012100250DB1 /* StackingUpButtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackingUpButtonsTests.swift; sourceTree = "<group>"; };
+		B4955A442C8B012100250DB1 /* StackingUpButtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackingUpButtonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4955A482C8B012100250DB1 /* StackingUpButtonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackingUpButtonsUITests.swift; sourceTree = "<group>"; };
+		B4955A4A2C8B012100250DB1 /* StackingUpButtonsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackingUpButtonsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4955A272C8B011F00250DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4955A372C8B012100250DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4955A412C8B012100250DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4955A212C8B011F00250DB1 = {
+			isa = PBXGroup;
+			children = (
+				B4955A2C2C8B011F00250DB1 /* StackingUpButtons */,
+				B4955A3D2C8B012100250DB1 /* StackingUpButtonsTests */,
+				B4955A472C8B012100250DB1 /* StackingUpButtonsUITests */,
+				B4955A2B2C8B011F00250DB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4955A2B2C8B011F00250DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4955A2A2C8B011F00250DB1 /* StackingUpButtons.app */,
+				B4955A3A2C8B012100250DB1 /* StackingUpButtonsTests.xctest */,
+				B4955A442C8B012100250DB1 /* StackingUpButtonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4955A2C2C8B011F00250DB1 /* StackingUpButtons */ = {
+			isa = PBXGroup;
+			children = (
+				B4955A2D2C8B011F00250DB1 /* StackingUpButtonsApp.swift */,
+				B4955A2F2C8B011F00250DB1 /* ContentView.swift */,
+				B4955A312C8B012000250DB1 /* Assets.xcassets */,
+				B4955A332C8B012000250DB1 /* Preview Content */,
+			);
+			path = StackingUpButtons;
+			sourceTree = "<group>";
+		};
+		B4955A332C8B012000250DB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B4955A342C8B012000250DB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4955A3D2C8B012100250DB1 /* StackingUpButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4955A3E2C8B012100250DB1 /* StackingUpButtonsTests.swift */,
+			);
+			path = StackingUpButtonsTests;
+			sourceTree = "<group>";
+		};
+		B4955A472C8B012100250DB1 /* StackingUpButtonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4955A482C8B012100250DB1 /* StackingUpButtonsUITests.swift */,
+				B4955A4A2C8B012100250DB1 /* StackingUpButtonsUITestsLaunchTests.swift */,
+			);
+			path = StackingUpButtonsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4955A292C8B011F00250DB1 /* StackingUpButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4955A4E2C8B012100250DB1 /* Build configuration list for PBXNativeTarget "StackingUpButtons" */;
+			buildPhases = (
+				B4955A262C8B011F00250DB1 /* Sources */,
+				B4955A272C8B011F00250DB1 /* Frameworks */,
+				B4955A282C8B011F00250DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StackingUpButtons;
+			productName = StackingUpButtons;
+			productReference = B4955A2A2C8B011F00250DB1 /* StackingUpButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4955A392C8B012100250DB1 /* StackingUpButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4955A512C8B012100250DB1 /* Build configuration list for PBXNativeTarget "StackingUpButtonsTests" */;
+			buildPhases = (
+				B4955A362C8B012100250DB1 /* Sources */,
+				B4955A372C8B012100250DB1 /* Frameworks */,
+				B4955A382C8B012100250DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4955A3C2C8B012100250DB1 /* PBXTargetDependency */,
+			);
+			name = StackingUpButtonsTests;
+			productName = StackingUpButtonsTests;
+			productReference = B4955A3A2C8B012100250DB1 /* StackingUpButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4955A432C8B012100250DB1 /* StackingUpButtonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4955A542C8B012100250DB1 /* Build configuration list for PBXNativeTarget "StackingUpButtonsUITests" */;
+			buildPhases = (
+				B4955A402C8B012100250DB1 /* Sources */,
+				B4955A412C8B012100250DB1 /* Frameworks */,
+				B4955A422C8B012100250DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4955A462C8B012100250DB1 /* PBXTargetDependency */,
+			);
+			name = StackingUpButtonsUITests;
+			productName = StackingUpButtonsUITests;
+			productReference = B4955A442C8B012100250DB1 /* StackingUpButtonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4955A222C8B011F00250DB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B4955A292C8B011F00250DB1 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					B4955A392C8B012100250DB1 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B4955A292C8B011F00250DB1;
+					};
+					B4955A432C8B012100250DB1 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B4955A292C8B011F00250DB1;
+					};
+				};
+			};
+			buildConfigurationList = B4955A252C8B011F00250DB1 /* Build configuration list for PBXProject "StackingUpButtons" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4955A212C8B011F00250DB1;
+			productRefGroup = B4955A2B2C8B011F00250DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4955A292C8B011F00250DB1 /* StackingUpButtons */,
+				B4955A392C8B012100250DB1 /* StackingUpButtonsTests */,
+				B4955A432C8B012100250DB1 /* StackingUpButtonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4955A282C8B011F00250DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4955A352C8B012000250DB1 /* Preview Assets.xcassets in Resources */,
+				B4955A322C8B012000250DB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4955A382C8B012100250DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4955A422C8B012100250DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4955A262C8B011F00250DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4955A302C8B011F00250DB1 /* ContentView.swift in Sources */,
+				B4955A2E2C8B011F00250DB1 /* StackingUpButtonsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4955A362C8B012100250DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4955A3F2C8B012100250DB1 /* StackingUpButtonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4955A402C8B012100250DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4955A492C8B012100250DB1 /* StackingUpButtonsUITests.swift in Sources */,
+				B4955A4B2C8B012100250DB1 /* StackingUpButtonsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4955A3C2C8B012100250DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4955A292C8B011F00250DB1 /* StackingUpButtons */;
+			targetProxy = B4955A3B2C8B012100250DB1 /* PBXContainerItemProxy */;
+		};
+		B4955A462C8B012100250DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4955A292C8B011F00250DB1 /* StackingUpButtons */;
+			targetProxy = B4955A452C8B012100250DB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B4955A4C2C8B012100250DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4955A4D2C8B012100250DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4955A4F2C8B012100250DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StackingUpButtons/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = manto.StackingUpButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4955A502C8B012100250DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StackingUpButtons/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = manto.StackingUpButtons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4955A522C8B012100250DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = manto.StackingUpButtonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StackingUpButtons.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StackingUpButtons";
+			};
+			name = Debug;
+		};
+		B4955A532C8B012100250DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = manto.StackingUpButtonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StackingUpButtons.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StackingUpButtons";
+			};
+			name = Release;
+		};
+		B4955A552C8B012100250DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = manto.StackingUpButtonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StackingUpButtons;
+			};
+			name = Debug;
+		};
+		B4955A562C8B012100250DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = manto.StackingUpButtonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StackingUpButtons;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4955A252C8B011F00250DB1 /* Build configuration list for PBXProject "StackingUpButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4955A4C2C8B012100250DB1 /* Debug */,
+				B4955A4D2C8B012100250DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4955A4E2C8B012100250DB1 /* Build configuration list for PBXNativeTarget "StackingUpButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4955A4F2C8B012100250DB1 /* Debug */,
+				B4955A502C8B012100250DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4955A512C8B012100250DB1 /* Build configuration list for PBXNativeTarget "StackingUpButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4955A522C8B012100250DB1 /* Debug */,
+				B4955A532C8B012100250DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4955A542C8B012100250DB1 /* Build configuration list for PBXNativeTarget "StackingUpButtonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4955A552C8B012100250DB1 /* Debug */,
+				B4955A562C8B012100250DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4955A222C8B011F00250DB1 /* Project object */;
+}
